@@ -8,7 +8,7 @@ import Header from "./Header";
 const App: FC = () => {
   return (
     <>
-    <Router>
+    <Router basename="/test-task">
       <Header />
       <main className="max-w-[85%] m-auto  ">
         
